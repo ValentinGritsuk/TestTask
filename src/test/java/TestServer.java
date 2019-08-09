@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 public class TestServer {
 
     @org.junit.Test
-    public void testThatWeGotSuccessResponseIfUserExists() {
+    public void testThatWeGotSuccessResponseIfUserAreFromTheSameCompany() {
 
         User user3 = new User("a", "2");
         User user4 = new User("a", "2");
